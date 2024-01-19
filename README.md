@@ -8,7 +8,7 @@ For matrix calculations, the code uses the *Eigen library* (see https://eigen.tu
 ROOT is used to plot the squared-magnitude of the amplitude compared to binned BESIII data for the pipi- (*Phys.Rev.D 92 (2015) 5, 052003*) and KK-channels (*Phys.Rev.D 98 (2018) 7, 072003*).
 
 If useful, please feel free to try and use this amplitude as a description of the pipi or KK S- and D-wave between 1 and 2.5 GeV in your work, citing the original publication *Eur.Phys.J.C 82 (2022) 1, 80* as well as https://eigen.tuxfamily.org.
-You can also refer to doi.org/XXXX/zenodo.XXXX for this repository.
+You can also refer to doi.org/10.5281/zenodo.10535099 for this repository.
 
 ### AmpTools integration
 In the folder *AmpTools*, there is also an AmpTools version of this amplitude (see https://github.com/mashephe/AmpTools and doi.org/10.5281/zenodo.5039377 for details on AmpTools). To use it, copy it into your AmpTools project under *PROJECT/PROJECTLib/PROJECTAmp*. You then need to change the word *PROJECT* to your project-name in *jpac.cc* and *jpac.h*, make sure you place the lookup-tables in *PROJECT/PROJECTExe/PHSPFUNCS* and again adjust the include-path for Eigen/Dense.
